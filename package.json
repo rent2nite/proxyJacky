@@ -1,0 +1,15 @@
+{
+  "name": "proxyjacky",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Jacky Tang",
+  "license": "ISC",
+  "scripts": {
+    "server": "nodemon ./Server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0"
+  }
+}
